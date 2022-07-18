@@ -16,3 +16,14 @@ python manage.py runserver
 ```bash
 python manage.py startapp <app name>
 ```
+### Detect database & update changes
+```bash
+python manage.py makemigrations
+```
+```bash
+python manage.py migrate
+```
+### Create superuser
+```bash
+python manage.py createsuperuser
+```
