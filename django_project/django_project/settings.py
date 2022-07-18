@@ -29,6 +29,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+CSRF_TRUSTED_ORIGINS = [
+    'https://deji01-django-blog-v6q6x64wgfx9wv-8000.githubpreview.dev'
+]
 
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
